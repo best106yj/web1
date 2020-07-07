@@ -3,27 +3,36 @@
 <head>
     <meta charset="utf-8">
     <title>뎡이와 함께 (๑˃؂˂๑) - 망원동 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="nightday.js"></script>
 </head>
 
 <body>
     <h1><a href="index.html">맛집/카페 탐방</a></h1>
-    <ul>
-        <li><a href="홍대.html">홍대</a></li>
-        <li><a href="연남동.html">연남동</a></li>
-        <li><a href="망원동.html">망원동</a></li>
-    </ul>
-    <h2>망원동</h2>
-    <p>
-        <h4>카페</h4>
-        <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1348768821&query=%EC%96%B4%EA%B8%80%EB%A6%AC%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC" target="_blank">어글리베이커리</a>
-        <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1921338143&query=%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8A%B8%EB%A1%A4" target="_blank">비전스트롤</a>
-    </p>
-    <p>
-        <h4>맛집</h4>
-        <a href="https://store.naver.com/restaurants/detail?entry=plt&id=38549036&query=%EB%B0%9C%EB%A6%AC%EC%9D%B8%EB%A7%9D%EC%9B%90" target="_blank">발리인망원</a>
-        <a href="https://store.naver.com/restaurants/detail?id=35251725" target="_blank">초한초마</a>
-        <a href="https://store.naver.com/restaurants/detail?id=1956949040" target="_blank">소금집델리</a>
-        <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1985110297&query=%EC%83%90%EB%9F%AC%EB%A7%88%EB%A6%AC" target="_blank">샐러마리</a>
-    </p>
+    <input type="button" value="night" onclick="
+    nightday_handler(this);
+    ">
+    <div id="grid">
+        <ul>
+            <li><a href="홍대.html">홍대</a></li>
+            <li><a href="연남동.html">연남동</a></li>
+            <li><a href="망원동.html">망원동</a></li>
+        </ul>
+        <div>
+            <h2>망원동</h2>
+            <p>
+                <h4>카페</h4>
+                <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1348768821&query=%EC%96%B4%EA%B8%80%EB%A6%AC%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC" target="_blank">어글리베이커리</a>
+                <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1921338143&query=%EB%B9%84%EC%A0%84%EC%8A%A4%ED%8A%B8%EB%A1%A4" target="_blank">비전스트롤</a>
+            </p>
+            <p>
+                <h4>맛집</h4>
+                <a href="https://store.naver.com/restaurants/detail?entry=plt&id=38549036&query=%EB%B0%9C%EB%A6%AC%EC%9D%B8%EB%A7%9D%EC%9B%90" target="_blank">발리인망원</a>
+                <a href="https://store.naver.com/restaurants/detail?id=35251725" target="_blank">초한초마</a>
+                <a href="https://store.naver.com/restaurants/detail?id=1956949040" target="_blank">소금집델리</a>
+                <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1985110297&query=%EC%83%90%EB%9F%AC%EB%A7%88%EB%A6%AC" target="_blank">샐러마리</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>

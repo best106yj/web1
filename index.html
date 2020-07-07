@@ -3,19 +3,27 @@
 <head>
     <meta charset="utf-8">
     <title>뎡이와 함께 (๑˃؂˂๑) - Welcome </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="nightday.js"></script>
 </head>
 
 <body>
     <h1><a href="index.html">맛집/카페 탐방</a></h1>
-    <img src="food&cafe.jpg" width="100%">
-    <ul>
-        <li><a href="홍대.html">홍대</a></li>
-        <li><a href="연남동.html">연남동</a></li>
-        <li><a href="망원동.html">망원동</a></li>
-    </ul>
-    <h2>뎡이와 함께하는 맛집/카페 탐방</h2>
-    <p>
-      어쩌구 저쩌구 설명~~~~설명란~~  
-    </p>
+    <input type="button" value="night" onclick="
+    nightday_handler(this);
+    ">
+    <div id="grid">
+        <ul>
+            <li><a href="홍대.html">홍대</a></li>
+            <li><a href="연남동.html">연남동</a></li>
+            <li><a href="망원동.html">망원동</a></li>
+        </ul>
+        <div>
+            <h2>뎡이와 함께하는 맛집/카페 탐방</h2>
+            <p>
+            어쩌구 저쩌구 설명~~~~설명란~~  
+            </p>
+        </div>
+    </div>
 </body>
 </html>

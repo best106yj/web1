@@ -3,22 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>뎡이와 함께 (๑˃؂˂๑) - 홍대</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="nightday.js"></script>
 </head>
 
 <body>
     <h1><a href="index.html">맛집/카페 탐방</a></h1>
-    <ul>
-        <li><a href="홍대.html">홍대</a></li>
-        <li><a href="연남동.html">연남동</a></li>
-        <li><a href="망원동.html">망원동</a></li>
-    </ul>
-    <h2>홍대</h2>
-    <p>
-        <h4>카페</h4>
-        <a href="https://store.naver.com/restaurants/detail?id=1354903584" target="_blank">그릭데이</a>
-    </p>
-    <p>
-        <h4>맛집</h4>
-    </p>
+    <input type="button" value="night" onclick="
+    nightday_handler(this);
+    ">
+    <div id="grid">
+        <ul>
+            <li><a href="홍대.html">홍대</a></li>
+            <li><a href="연남동.html">연남동</a></li>
+            <li><a href="망원동.html">망원동</a></li>
+        </ul>
+        <div>
+            <h2>홍대</h2>
+            <p>
+                <h4>카페</h4>
+                <a href="https://store.naver.com/restaurants/detail?id=1354903584" target="_blank">그릭데이</a>
+            </p>
+            <p>
+                <h4>맛집</h4>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
