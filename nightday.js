@@ -28,6 +28,6 @@ function nightday_handler(self){
         Body.SetBackgroundColor('white');
         Body.SetColor('black');
         self.value = 'night';
-        Links.SetColor('purple');
+        Links.SetColor('DarkOrange');
         }
 }
